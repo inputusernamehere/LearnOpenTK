@@ -11,6 +11,7 @@ namespace LearnOpenTK
             {
                 Size = new Vector2i(800, 600),
                 Title = "LearnOpenTK - Creating a Window",
+                Flags = OpenTK.Windowing.Common.ContextFlags.ForwardCompatible,
             };
 
             // To create a new window, create a class that extends GameWindow, then call Run() on it.
