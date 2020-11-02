@@ -11,6 +11,7 @@ namespace LearnOpenTK
             {
                 Size = new Vector2i(800, 600),
                 Title = "LearnOpenTK - Light casters - spotlight",
+                Flags = OpenTK.Windowing.Common.ContextFlags.ForwardCompatible,
             };
 
             using (var window = new Window(GameWindowSettings.Default, nativeWindowSettings))
